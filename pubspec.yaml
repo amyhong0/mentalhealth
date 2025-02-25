@@ -1,0 +1,31 @@
+name: mindwave
+description: 감정 기록 및 분석 앱
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.2
+  path: ^1.8.0
+  intl: ^0.17.0
+  provider: ^6.0.2
+  fl_chart: ^0.55.0
+  shared_preferences: ^2.0.13
+  table_calendar: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/emotions/
