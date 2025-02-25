@@ -16,10 +16,15 @@
 
 1. Flutter 개발 환경 설정
 2. 프로젝트 클론
+   
    git clone https://github.com/amyhong0/mindwave.git
+  
 3. 의존성 패키지 설치
+
    flutter pub get
+
 4. 앱 실행
+
    flutter run
 
 ## 사용된 기술
